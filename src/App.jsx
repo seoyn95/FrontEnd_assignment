@@ -4,7 +4,7 @@ import Introduce from '../components/Introduce/Introduce'
 import MyProfile from '../components/MyProfile/MyProfile'
 import Neighbor from '../components/Neighbor/Neighbor'
 import logo_ver from './assets/likelion_logo_ver.png'
-
+import { postData } from './constants/postData'
 //App.jsx
 
 function App() {
@@ -23,8 +23,15 @@ function App() {
           </div>
 
           <Introduce />
-          <List />
-          <List />
+
+          {postData.map(function (data) {
+            return (
+              <List
+                data={data}
+                key={data.id}
+              />
+            );
+          })}
 
         </div>
 

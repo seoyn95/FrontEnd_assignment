@@ -1,6 +1,29 @@
 .list {
-  height: 150px;
+  height: 250px;
   border: 1px solid rgba(0, 45, 86, 1);
   padding: 10px;
+  
 }
+div{
+  padding: 5px;
+}
+.profileimg{
+  display: flex;
+  align-items: center;
 
+}
+.imgg{
+  width: 15px;
+  height: 15px;
+}
+.date{
+  color: gray;
+}
+.title{
+  font-weight: bold;
+  font-size: 20px;
+}
+.tag{
+  color: gray;
+  font-size: 13px;
+}
