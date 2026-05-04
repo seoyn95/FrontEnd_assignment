@@ -1,7 +1,8 @@
 .meotsa-introduce {
   align-items: left;
   padding: 10px;
-  border: 1px solid rgba(0, 45, 86, 1);
+  border: 1px solid #8687c5;
+  border-radius: 30px;
 }
 
 .meotsa-logo {

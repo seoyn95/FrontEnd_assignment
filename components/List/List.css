@@ -1,7 +1,8 @@
 .list {
-  height: 250px;
-  border: 1px solid rgba(0, 45, 86, 1);
+  height: 300px;
+  border: 1px solid #8687c5;
   padding: 10px;
+  border-radius: 30px;
   
 }
 div{
@@ -26,4 +27,14 @@ div{
 .tag{
   color: gray;
   font-size: 13px;
+}
+.delete_button{
+  width: 100px;
+  height: 30px;
+  padding: 5px;
+  margin: 8px;
+  border:1px solid #8687c5;
+  border-radius: 30px;
+  background-color: #8687c5;
+  color:white;
 }

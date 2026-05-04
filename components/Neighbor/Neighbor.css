@@ -1,8 +1,9 @@
 .neighbor-container {
-  border: 1px solid gray;
+  border: 1px solid #8687c5;
   width: 200px;
   text-align: center;
   padding: 15px;
+  border-radius: 30px;
 }
 
 .neighbor-title {

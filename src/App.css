@@ -30,3 +30,7 @@
 .blog-right {
   flex-shrink: 0;
 }
+
+.writing{
+  border: 1px solid black;
+}

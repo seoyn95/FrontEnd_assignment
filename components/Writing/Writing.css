@@ -1,0 +1,35 @@
+.writing {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  border: 1px solid #8687c5;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+.writing input {
+  padding: 8px;
+  border: 1px solid #8687c5;
+  border-radius: 30px;
+  font-size: 14px;
+}
+
+.writing button {
+  padding: 8px;
+  background-color: #ff6b00;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.new_writing{
+  border: none;
+  background-color: #8687c5;
+  border-radius: 20px;
+  text-align: center;
+  margin: 8px;
+  font-size: 25px;
+}
